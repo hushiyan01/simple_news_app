@@ -10,7 +10,7 @@ import com.myworkshop.simple_news_app.R
 @SuppressLint("CustomSplashScreen")
 class SplashActivity : AppCompatActivity() {
 
-    private val SPLASH_DISPLAY_TIME_MS = 2000L
+    private val SPLASH_DISPLAY_TIME_MS = 1000L
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
